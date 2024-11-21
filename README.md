@@ -3,7 +3,7 @@
 ## Introduction
 The Open-Set Dynamic Evaluation (ODE) protocol  automatically generates datasets to evaluate object hallucinations in MLLMs, covering both existence-level and attribute-level hallucinations.
 
-![image](https://github.com/Iridescent-y/ODE/blob/main/figures/method.pdf)
+![image](https://github.com/Iridescent-y/ODE/blob/main/figures/method.png)
 
 The workflow consists of four steps: modeling real-world scenarios using a graph structure, conceptual design of semantic scene, image generation and filtering, and template design for inquiries.
 
