@@ -7,11 +7,7 @@ from tqdm import tqdm
 import warnings
 import argparse
 
-nltk.data.path.append('/mnt/sdc1/yahan/nltk_data')  # 替换为你的路径
-#nltk.download('averaged_perceptron_tagger', download_dir='/mnt/sdc1/yahan/nltk_data')
-#nltk.download('punkt_tab', download_dir='/mnt/sdc1/yahan/nltk_data')
-# nltk.data.path.append('/mnt/sdc1/yahan/nltk_data')  # 替换为你的路径
-
+nltk.data.path.append('/nltk_data')  # your path
 nlp = spacy.load("en_core_web_lg")
 warnings.filterwarnings("ignore", category=UserWarning)
 
