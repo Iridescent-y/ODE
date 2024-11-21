@@ -1,0 +1,3 @@
+[submodule "YOLO-World"]
+	path = YOLO-World
+	url = https://github.com/AILab-CVC/YOLO-World/tree/master

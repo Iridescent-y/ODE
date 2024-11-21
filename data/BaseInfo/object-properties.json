@@ -1,0 +1,1871 @@
+{
+    "sky": {
+        "relation": [],
+        "property": "environment"
+    },
+    "grass": {
+        "relation": [
+            "ground"
+        ],
+        "property": "environment"
+    },
+    "wall": {
+        "relation": [
+            "building"
+        ],
+        "property": "environment"
+    },
+    "ground": {
+        "relation": [
+            "floor"
+        ],
+        "property": "environment"
+    },
+    "road": {
+        "relation": [
+            "path",
+            "street",
+            "ground"
+        ],
+        "property": "environment"
+    },
+    "person": {
+        "relation": [
+            "people",
+            "individual",
+            "man",
+            "woman",
+            "boy",
+            "girl"
+        ],
+        "property": "entity"
+    },
+    "cloud": {
+        "relation": [],
+        "property": "environment"
+    },
+    "forest": {
+        "relation": [
+            "tree",
+            "leave",
+            "bush"
+        ],
+        "property": "environment"
+    },
+    "table": {
+        "relation": [
+            "desk"
+        ],
+        "property": "entity"
+    },
+    "tree": {
+        "relation": [
+            "forest",
+            "leave",
+            "bush"
+        ],
+        "property": "environment"
+    },
+    "floor": {
+        "relation": [
+            "ground"
+        ],
+        "property": "environment"
+    },
+    "sea": {
+        "relation": [
+            "water",
+            "lake"
+        ],
+        "property": "environment"
+    },
+    "hat": {
+        "relation": [],
+        "property": "entity"
+    },
+    "dog": {
+        "relation": [],
+        "property": "entity"
+    },
+    "cat": {
+        "relation": [],
+        "property": "entity"
+    },
+    "mountain": {
+        "relation": [
+            "hill",
+            "rock",
+            "stone",
+            "reef"
+        ],
+        "property": "environment"
+    },
+    "beach": {
+        "relation": [
+            "sand",
+            "shore",
+            "waterfont",
+            "ground",
+            "desert"
+        ],
+        "property": "environment"
+    },
+    "waterfront": {
+        "relation": [
+            "shore"
+        ],
+        "property": "environment"
+    },
+    "woman": {
+        "relation": [
+            "person",
+            "people",
+            "individual",
+            "girl"
+        ],
+        "property": "entity"
+    },
+    "car": {
+        "relation": [
+            "window",
+            "door",
+            "tire",
+            "vehicle",
+            "light",
+            "mirror",
+            "plate"
+        ],
+        "property": "entity"
+    },
+    "house": {
+        "relation": [
+            "building"
+        ],
+        "property": "environment"
+    },
+    "plate": {
+        "relation": [],
+        "property": "entity"
+    },
+    "bicycle": {
+        "relation": [
+            "bike",
+            "tire",
+            "saddle"
+        ],
+        "property": "entity"
+    },
+    "man": {
+        "relation": [
+            "person",
+            "people",
+            "individual",
+            "boy"
+        ],
+        "property": "entity"
+    },
+    "bench": {
+        "relation": [
+            "chair",
+            "armrest"
+        ],
+        "property": "entity"
+    },
+    "glove": {
+        "relation": [],
+        "property": "entity"
+    },
+    "toy": {
+        "relation": [],
+        "property": "entity"
+    },
+    "fence": {
+        "relation": [
+            "bail",
+            "barrier",
+            "rail",
+            "bar",
+            "railing"
+        ],
+        "property": "environment"
+    },
+    "laptop": {
+        "relation": [
+            "screen",
+            "keyboard",
+            "computer"
+        ],
+        "property": "entity"
+    },
+    "toilet": {
+        "relation": [
+            "closestool",
+            "pan",
+            "stool",
+            "bowl",
+            "tank"
+        ],
+        "property": "entity"
+    },
+    "snow": {
+        "relation": [
+            "ground"
+        ],
+        "property": "environment"
+    },
+    "surfboard": {
+        "relation": [
+            "board",
+            "spray"
+        ],
+        "property": "entity"
+    },
+    "keyboard": {
+        "relation": [
+            "computer"
+        ],
+        "property": "entity"
+    },
+    "bird": {
+        "relation": [
+            "bill"
+        ],
+        "property": "entity"
+    },
+    "bus": {
+        "relation": [
+            "car",
+            "truck",
+            "window",
+            "door",
+            "tire",
+            "vehicle",
+            "light",
+            "mirror",
+            "plate"
+        ],
+        "property": "entity"
+    },
+    "sign": {
+        "relation": [
+            "signal",
+            "pole",
+            "street",
+            "road",
+            "path"
+        ],
+        "property": "environment"
+    },
+    "chair": {
+        "relation": [
+            "bench"
+        ],
+        "property": "entity"
+    },
+    "cable": {
+        "relation": [
+            "line",
+            "cord"
+        ],
+        "property": "entity"
+    },
+    "cabinet": {
+        "relation": [],
+        "property": "environment"
+    },
+    "cup": {
+        "relation": [],
+        "property": "entity"
+    },
+    "glass": {
+        "relation": [],
+        "property": "entity"
+    },
+    "frisbee": {
+        "relation": [],
+        "property": "entity"
+    },
+    "bear": {
+        "relation": [],
+        "property": "entity"
+    },
+    "motorbike": {
+        "relation": [
+            "motorcycle",
+            "bike",
+            "tire",
+            "vehicle",
+            "saddle",
+            "mirror",
+            "plate"
+        ],
+        "property": "entity"
+    },
+    "computer": {
+        "relation": [],
+        "property": "entity"
+    },
+    "tap": {
+        "relation": [
+            "stopcock",
+            "faucet"
+        ],
+        "property": "entity"
+    },
+    "bed": {
+        "relation": [
+            "sheet",
+            "mattress",
+            "cushion"
+        ],
+        "property": "entity"
+    },
+    "train": {
+        "relation": [
+            "track",
+            "window",
+            "vehicle",
+            "car",
+            "container",
+            "light"
+        ],
+        "property": "entity"
+    },
+    "hydrant": {
+        "relation": [
+            "street",
+            "road",
+            "ground"
+        ],
+        "property": "environment"
+    },
+    "horse": {
+        "relation": [],
+        "property": "entity"
+    },
+    "phone": {
+        "relation": [
+            "telephone",
+            "screen"
+        ],
+        "property": "entity"
+    },
+    "umbrella": {
+        "relation": [],
+        "property": "entity"
+    },
+    "flower": {
+        "relation": [],
+        "property": "entity"
+    },
+    "truck": {
+        "relation": [
+            "car",
+            "window",
+            "door",
+            "tire",
+            "vehicle",
+            "light",
+            "mirror",
+            "plate",
+            "bed"
+        ],
+        "property": "entity"
+    },
+    "door": {
+        "relation": [],
+        "property": "entity"
+    },
+    "cow": {
+        "relation": [],
+        "property": "entity"
+    },
+    "banana": {
+        "relation": [],
+        "property": "entity"
+    },
+    "plane": {
+        "relation": [],
+        "property": "entity"
+    },
+    "snowboard": {
+        "relation": [
+            "ski"
+        ],
+        "property": "entity"
+    },
+    "zebra": {
+        "relation": [],
+        "property": "entity"
+    },
+    "sheep": {
+        "relation": [],
+        "property": "entity"
+    },
+    "mouse": {
+        "relation": [
+            "computer"
+        ],
+        "property": "entity"
+    },
+    "pillow": {
+        "relation": [],
+        "property": "entity"
+    },
+    "lake": {
+        "relation": [
+            "water",
+            "sea",
+            "river"
+        ],
+        "property": "environment"
+    },
+    "streetlamp": {
+        "relation": [
+            "light",
+            "lamp"
+        ],
+        "property": "environment"
+    },
+    "sink": {
+        "relation": [
+            "basin"
+        ],
+        "property": "entity"
+    },
+    "skate": {
+        "relation": [
+            "board"
+        ],
+        "property": "entity"
+    },
+    "carpet": {
+        "relation": [
+            "rug",
+            "blanket",
+            "floor"
+        ],
+        "property": "environment"
+    },
+    "ship": {
+        "relation": [
+            "boat",
+            "vessel",
+            "sailing",
+            "vehicle"
+        ],
+        "property": "entity"
+    },
+    "kite": {
+        "relation": [],
+        "property": "entity"
+    },
+    "apple": {
+        "relation": [],
+        "property": "entity"
+    },
+    "quilt": {
+        "relation": [],
+        "property": "entity"
+    },
+    "rail": {
+        "relation": [
+            "track"
+        ],
+        "property": "environment"
+    },
+    "lounge": {
+        "relation": [
+            "chair",
+            "bench",
+            "armrest"
+        ],
+        "property": "entity"
+    },
+    "mirror": {
+        "relation": [
+            "glass"
+        ],
+        "property": "entity"
+    },
+    "river": {
+        "relation": [
+            "lake",
+            "water"
+        ],
+        "property": "environment"
+    },
+    "sofa": {
+        "relation": [
+            "couch",
+            "chair",
+            "bench"
+        ],
+        "property": "entity"
+    },
+    "giraffe": {
+        "relation": [],
+        "property": "entity"
+    },
+    "window": {
+        "relation": [
+            "glass"
+        ],
+        "property": "entity"
+    },
+    "ball": {
+        "relation": [],
+        "property": "entity"
+    },
+    "sun": {
+        "relation": [],
+        "property": "environment"
+    },
+    "curtain": {
+        "relation": [],
+        "property": "entity"
+    },
+    "lamp": {
+        "relation": [
+            "light"
+        ],
+        "property": "environment"
+    },
+    "socket": {
+        "relation": [
+            "plug"
+        ],
+        "property": "entity"
+    },
+    "book": {
+        "relation": [
+            "paper"
+        ],
+        "property": "entity"
+    },
+    "rope": {
+        "relation": [
+            "cord",
+            "string"
+        ],
+        "property": "entity"
+    },
+    "backpack": {
+        "relation": [
+            "bag",
+            "pack"
+        ],
+        "property": "entity"
+    },
+    "wire": {
+        "relation": [
+            "cable",
+            "cord"
+        ],
+        "property": "entity"
+    },
+    "bin": {
+        "relation": [
+            "can",
+            "bucket"
+        ],
+        "property": "entity"
+    },
+    "tissue": {
+        "relation": [
+            "napkin",
+            "towel",
+            "paper"
+        ],
+        "property": "entity"
+    },
+    "vase": {
+        "relation": [],
+        "property": "entity"
+    },
+    "sheet": {
+        "relation": [
+            "bedsheet",
+            "cloth"
+        ],
+        "property": "entity"
+    },
+    "orange": {
+        "relation": [
+            "tangerine"
+        ],
+        "property": "entity"
+    },
+    "drawing": {
+        "relation": [
+            "painting"
+        ],
+        "property": "entity"
+    },
+    "wineglass": {
+        "relation": [
+            "cup",
+            "glass",
+            "cann",
+            "goblet"
+        ],
+        "property": "entity"
+    },
+    "tablecloth": {
+        "relation": [
+            "napery",
+            "table",
+            "cloth"
+        ],
+        "property": "entity"
+    },
+    "tussock": {
+        "relation": [
+            "grass"
+        ],
+        "property": "environment"
+    },
+    "doll": {
+        "relation": [
+            "toy"
+        ],
+        "property": "entity"
+    },
+    "line": {
+        "relation": [
+            "string",
+            "cord"
+        ],
+        "property": "entity"
+    },
+    "holder": {
+        "relation": [],
+        "property": "entity"
+    },
+    "mousepad": {
+        "relation": [
+            "pad"
+        ],
+        "property": "entity"
+    },
+    "light": {
+        "relation": [],
+        "property": "environment"
+    },
+    "pole": {
+        "relation": [],
+        "property": "environment"
+    },
+    "cone": {
+        "relation": [],
+        "property": "entity"
+    },
+    "building": {
+        "relation": [],
+        "property": "environment"
+    },
+    "manhole": {
+        "relation": [],
+        "property": "environment"
+    },
+    "bowl": {
+        "relation": [],
+        "property": "entity"
+    },
+    "alarm": {
+        "relation": [
+            "clock"
+        ],
+        "property": "entity"
+    },
+    "court": {
+        "relation": [],
+        "property": "environment"
+    },
+    "rock": {
+        "relation": [
+            "stone"
+        ],
+        "property": "entity"
+    },
+    "cake": {
+        "relation": [],
+        "property": "entity"
+    },
+    "paddle": {
+        "relation": [
+            "oar"
+        ],
+        "property": "entity"
+    },
+    "fork": {
+        "relation": [],
+        "property": "entity"
+    },
+    "elephant": {
+        "relation": [],
+        "property": "entity"
+    },
+    "necklace": {
+        "relation": [
+            "necklet",
+            "collar"
+        ],
+        "property": "entity"
+    },
+    "coffee": {
+        "relation": [
+            "cafe",
+            "drink"
+        ],
+        "property": "entity"
+    },
+    "pizza": {
+        "relation": [
+            "cheese",
+            "bread"
+        ],
+        "property": "entity"
+    },
+    "knife": {
+        "relation": [],
+        "property": "entity"
+    },
+    "sausage": {
+        "relation": [],
+        "property": "entity"
+    },
+    "child": {
+        "relation": [
+            "kid",
+            "person",
+            "people",
+            "boy",
+            "girl",
+            "man",
+            "woman",
+            "individual"
+        ],
+        "property": "entity"
+    },
+    "bread": {
+        "relation": [],
+        "property": "entity"
+    },
+    "shoe": {
+        "relation": [],
+        "property": "entity"
+    },
+    "signal": {
+        "relation": [
+            "light"
+        ],
+        "property": "environment"
+    },
+    "sound": {
+        "relation": [],
+        "property": "environment"
+    },
+    "tie": {
+        "relation": [
+            "necktie",
+            "collar"
+        ],
+        "property": "entity"
+    },
+    "luggage": {
+        "relation": [
+            "box",
+            "baggage"
+        ],
+        "property": "entity"
+    },
+    "microwave": {
+        "relation": [
+            "oven",
+            "container",
+            "door",
+            "bar"
+        ],
+        "property": "environment"
+    },
+    "scoon": {
+        "relation": [],
+        "property": "entity"
+    },
+    "football": {
+        "relation": [
+            "soccer",
+            "ball"
+        ],
+        "property": "entity"
+    },
+    "pipe": {
+        "relation": [
+            "hose"
+        ],
+        "property": "entity"
+    },
+    "bat": {
+        "relation": [],
+        "property": "entity"
+    },
+    "bath": {
+        "relation": [
+            "bathtub",
+            "tub"
+        ],
+        "property": "entity"
+    },
+    "stone": {
+        "relation": [
+            "rock"
+        ],
+        "property": "entity"
+    },
+    "electrombile": {
+        "relation": [
+            "bike",
+            "motorbike",
+            "motorcycle",
+            "vehicle",
+            "mirror"
+        ],
+        "property": "entity"
+    },
+    "cloth": {
+        "relation": [],
+        "property": "entity"
+    },
+    "sticker": {
+        "relation": [
+            "note"
+        ],
+        "property": "entity"
+    },
+    "racket": {
+        "relation": [
+            "bat",
+            "string"
+        ],
+        "property": "entity"
+    },
+    "paper": {
+        "relation": [],
+        "property": "entity"
+    },
+    "kettle": {
+        "relation": [
+            "bottle"
+        ],
+        "property": "entity"
+    },
+    "parasail": {
+        "relation": [
+            "paraglider",
+            "kite"
+        ],
+        "property": "entity"
+    },
+    "toothbrush": {
+        "relation": [],
+        "property": "entity"
+    },
+    "pigeon": {
+        "relation": [
+            "dove",
+            "bird"
+        ],
+        "property": "entity"
+    },
+    "wine": {
+        "relation": [
+            "drink",
+            "alcohol"
+        ],
+        "property": "entity"
+    },
+    "boy": {
+        "relation": [
+            "person",
+            "people",
+            "individual",
+            "man",
+            "child"
+        ],
+        "property": "entity"
+    },
+    "girl": {
+        "relation": [
+            "person",
+            "people",
+            "individual",
+            "woman",
+            "child"
+        ],
+        "property": "entity"
+    },
+    "watch": {
+        "relation": [],
+        "property": "entity"
+    },
+    "doughnut": {
+        "relation": [],
+        "property": "entity"
+    },
+    "sunflower": {
+        "relation": [
+            "flower"
+        ],
+        "property": "entity"
+    },
+    "scarf": {
+        "relation": [
+            "warp",
+            "muffler"
+        ],
+        "property": "entity"
+    },
+    "carrot": {
+        "relation": [],
+        "property": "entity"
+    },
+    "broccoli": {
+        "relation": [],
+        "property": "entity"
+    },
+    "leave": {
+        "relation": [],
+        "property": "entity"
+    },
+    "bridge": {
+        "relation": [],
+        "property": "entity"
+    },
+    "urinal": {
+        "relation": [
+            "pissoir",
+            "toilet"
+        ],
+        "property": "entity"
+    },
+    "television": {
+        "relation": [
+            "TV",
+            "screen"
+        ],
+        "property": "entity"
+    },
+    "bookshelf": {
+        "relation": [
+            "shelf"
+        ],
+        "property": "entity"
+    },
+    "bag": {
+        "relation": [],
+        "property": "entity"
+    },
+    "spray": {
+        "relation": [
+            "bottle"
+        ],
+        "property": "entity"
+    },
+    "bucket": {
+        "relation": [],
+        "property": "entity"
+    },
+    "board": {
+        "relation": [
+            "sign"
+        ],
+        "property": "entity"
+    },
+    "baggage": {
+        "relation": [
+            "bag"
+        ],
+        "property": "entity"
+    },
+    "antelope": {
+        "relation": [],
+        "property": "entity"
+    },
+    "notebook": {
+        "relation": [
+            "paper",
+            "note"
+        ],
+        "property": "entity"
+    },
+    "tire": {
+        "relation": [],
+        "property": "virtual"
+    },
+    "lock": {
+        "relation": [],
+        "property": "entity"
+    },
+    "telephone": {
+        "relation": [
+            "phone",
+            "screen"
+        ],
+        "property": "entity"
+    },
+    "cushion": {
+        "relation": [],
+        "property": "entity"
+    },
+    "extinguisher": {
+        "relation": [],
+        "property": "entity"
+    },
+    "handrail": {
+        "relation": [
+            "rail",
+            "armrest"
+        ],
+        "property": "entity"
+    },
+    "brush": {
+        "relation": [],
+        "property": "entity"
+    },
+    "stair": {
+        "relation": [
+            "staircase"
+        ],
+        "property": "environment"
+    },
+    "kiwifruit": {
+        "relation": [
+            "kiwi"
+        ],
+        "property": "entity"
+    },
+    "peach": {
+        "relation": [],
+        "property": "entity"
+    },
+    "strawberry": {
+        "relation": [],
+        "property": "entity"
+    },
+    "toothpaste": {
+        "relation": [],
+        "property": "entity"
+    },
+    "bracelet": {
+        "relation": [],
+        "property": "entity"
+    },
+    "flag": {
+        "relation": [],
+        "property": "entity"
+    },
+    "box": {
+        "relation": [
+            "container"
+        ],
+        "property": "entity"
+    },
+    "tank": {
+        "relation": [],
+        "property": "entity"
+    },
+    "pulp": {
+        "relation": [
+            "board",
+            "surfboard"
+        ],
+        "property": "entity"
+    },
+    "grill": {
+        "relation": [
+            "barbecue",
+            "rack"
+        ],
+        "property": "entity"
+    },
+    "charcoal": {
+        "relation": [],
+        "property": "entity"
+    },
+    "doghole": {
+        "relation": [
+            "kennel",
+            "bed"
+        ],
+        "property": "entity"
+    },
+    "sauce": {
+        "relation": [],
+        "property": "entity"
+    },
+    "duck": {
+        "relation": [
+            "bird",
+            "bill"
+        ],
+        "property": "entity"
+    },
+    "pad": {
+        "relation": [
+            "screen"
+        ],
+        "property": "entity"
+    },
+    "note": {
+        "relation": [
+            "sticker"
+        ],
+        "property": "entity"
+    },
+    "tape": {
+        "relation": [],
+        "property": "entity"
+    },
+    "drain": {
+        "relation": [],
+        "property": "virtual"
+    },
+    "bottle": {
+        "relation": [],
+        "property": "entity"
+    },
+    "sunglasses": {
+        "relation": [],
+        "property": "entity"
+    },
+    "camera": {
+        "relation": [],
+        "property": "entity"
+    },
+    "refrigerator": {
+        "relation": [
+            "fridge",
+            "door"
+        ],
+        "property": "entity"
+    },
+    "tomato": {
+        "relation": [],
+        "property": "entity"
+    },
+    "support": {
+        "relation": [
+            "holder"
+        ],
+        "property": "entity"
+    },
+    "saddle": {
+        "relation": [],
+        "property": "entity"
+    },
+    "switch": {
+        "relation": [],
+        "property": "entity"
+    },
+    "baconic": {
+        "relation": [],
+        "property": "entity"
+    },
+    "cheese": {
+        "relation": [],
+        "property": "entity"
+    },
+    "guardrail": {
+        "relation": [
+            "rail",
+            "bar",
+            "railing",
+            "fence",
+            "barrier"
+        ],
+        "property": "environment"
+    },
+    "snack": {
+        "relation": [],
+        "property": "entity"
+    },
+    "pot": {
+        "relation": [
+            "pan"
+        ],
+        "property": "entity"
+    },
+    "cooktop": {
+        "relation": [
+            "hearth"
+        ],
+        "property": "entity"
+    },
+    "island": {
+        "relation": [],
+        "property": "environment"
+    },
+    "sailing": {
+        "relation": [
+            "boat",
+            "ship",
+            "vessel",
+            "vehicle"
+        ],
+        "property": "entity"
+    },
+    "pier": {
+        "relation": [],
+        "property": "environment"
+    },
+    "flowerpot": {
+        "relation": [
+            "pot"
+        ],
+        "property": "entity"
+    },
+    "reef": {
+        "relation": [
+            "rock",
+            "riff"
+        ],
+        "property": "environment"
+    },
+    "sand": {
+        "relation": [
+            "desert",
+            "ground"
+        ],
+        "property": "environment"
+    },
+    "water": {
+        "relation": [],
+        "property": "environment"
+    },
+    "can": {
+        "relation": [],
+        "property": "entity"
+    },
+    "opener": {
+        "relation": [],
+        "property": "entity"
+    },
+    "monitor": {
+        "relation": [
+            "screen",
+            "computer"
+        ],
+        "property": "entity"
+    },
+    "clock": {
+        "relation": [],
+        "property": "entity"
+    },
+    "file": {
+        "relation": [],
+        "property": "entity"
+    },
+    "monkey": {
+        "relation": [],
+        "property": "entity"
+    },
+    "controller": {
+        "relation": [],
+        "property": "entity"
+    },
+    "ebook": {
+        "relation": [
+            "e-book",
+            "book"
+        ],
+        "property": "entity"
+    },
+    "seegull": {
+        "relation": [
+            "bird"
+        ],
+        "property": "entity"
+    },
+    "yacht": {
+        "relation": [
+            "ship",
+            "boat",
+            "vessel",
+            "sailing",
+            "vehicle"
+        ],
+        "property": "entity"
+    },
+    "towel": {
+        "relation": [
+            "napkin"
+        ],
+        "property": "entity"
+    },
+    "napkin": {
+        "relation": [
+            "towel"
+        ],
+        "property": "entity"
+    },
+    "cherry": {
+        "relation": [],
+        "property": "entity"
+    },
+    "basin": {
+        "relation": [
+            "pot",
+            "tub"
+        ],
+        "property": "entity"
+    },
+    "rice": {
+        "relation": [],
+        "property": "entity"
+    },
+    "cabbage": {
+        "relation": [],
+        "property": "entity"
+    },
+    "tangerine": {
+        "relation": [
+            "orange"
+        ],
+        "property": "entity"
+    },
+    "pear": {
+        "relation": [],
+        "property": "entity"
+    },
+    "bush": {
+        "relation": [
+            "grove",
+            "tree",
+            "forest"
+        ],
+        "property": "environment"
+    },
+    "money": {
+        "relation": [
+            "cash",
+            "bill"
+        ],
+        "property": "entity"
+    },
+    "airport": {
+        "relation": [],
+        "property": "environment"
+    },
+    "hot": {
+        "relation": [],
+        "property": "virtual"
+    },
+    "blanket": {
+        "relation": [
+            "rug",
+            "carpet",
+            "cushion",
+            "mat"
+        ],
+        "property": "entity"
+    },
+    "fish": {
+        "relation": [],
+        "property": "entity"
+    },
+    "sanitizer": {
+        "relation": [
+            "soap",
+            "bottle"
+        ],
+        "property": "entity"
+    },
+    "ceiling": {
+        "relation": [],
+        "property": "environment"
+    },
+    "sled": {
+        "relation": [],
+        "property": "entity"
+    },
+    "rabbit": {
+        "relation": [],
+        "property": "entity"
+    },
+    "cathole": {
+        "relation": [
+            "kennel"
+        ],
+        "property": "entity"
+    },
+    "slippers": {
+        "relation": [],
+        "property": "entity"
+    },
+    "dresser": {
+        "relation": [],
+        "property": "entity"
+    },
+    "fishnet": {
+        "relation": [
+            "net",
+            "rpoe"
+        ],
+        "property": "entity"
+    },
+    "pen": {
+        "relation": [],
+        "property": "entity"
+    },
+    "drink": {
+        "relation": [],
+        "property": "entity"
+    },
+    "milk": {
+        "relation": [],
+        "property": "entity"
+    },
+    "stage": {
+        "relation": [],
+        "property": "entity"
+    },
+    "dustbin": {
+        "relation": [
+            "bin"
+        ],
+        "property": "entity"
+    },
+    "leopard": {
+        "relation": [],
+        "property": "entity"
+    },
+    "squirrel": {
+        "relation": [],
+        "property": "entity"
+    },
+    "insect": {
+        "relation": [
+            "worm"
+        ],
+        "property": "entity"
+    },
+    "buoy": {
+        "relation": [],
+        "property": "entity"
+    },
+    "toothpick": {
+        "relation": [],
+        "property": "entity"
+    },
+    "earphone": {
+        "relation": [],
+        "property": "entity"
+    },
+    "goal": {
+        "relation": [],
+        "property": "entity"
+    },
+    "butterfly": {
+        "relation": [],
+        "property": "entity"
+    },
+    "eagle": {
+        "relation": [
+            "bird"
+        ],
+        "property": "entity"
+    },
+    "air-conditioning": {
+        "relation": [],
+        "property": "entity"
+    },
+    "shell": {
+        "relation": [],
+        "property": "entity"
+    },
+    "crocodile": {
+        "relation": [],
+        "property": "entity"
+    },
+    "candle": {
+        "relation": [],
+        "property": "entity"
+    },
+    "steak": {
+        "relation": [],
+        "property": "entity"
+    },
+    "tent": {
+        "relation": [],
+        "property": "entity"
+    },
+    "rainbow": {
+        "relation": [],
+        "property": "environment"
+    },
+    "cage": {
+        "relation": [],
+        "property": "entity"
+    },
+    "railing": {
+        "relation": [],
+        "property": "entity"
+    },
+    "trough": {
+        "relation": [],
+        "property": "entity"
+    },
+    "cooker": {
+        "relation": [
+            "range"
+        ],
+        "property": "entity"
+    },
+    "lion": {
+        "relation": [],
+        "property": "entity"
+    },
+    "charger": {
+        "relation": [],
+        "property": "entity"
+    },
+    "dryer": {
+        "relation": [],
+        "property": "entity"
+    },
+    "hanger": {
+        "relation": [],
+        "property": "entity"
+    },
+    "chopsticks": {
+        "relation": [],
+        "property": "entity"
+    },
+    "shampoo": {
+        "relation": [
+            "bottle"
+        ],
+        "property": "entity"
+    },
+    "glacier": {
+        "relation": [
+            "ice"
+        ],
+        "property": "environment"
+    },
+    "newspaper": {
+        "relation": [],
+        "property": "entity"
+    },
+    "basket": {
+        "relation": [],
+        "property": "entity"
+    },
+    "balloon": {
+        "relation": [
+            "ball"
+        ],
+        "property": "entity"
+    },
+    "volleyball": {
+        "relation": [
+            "ball"
+        ],
+        "property": "entity"
+    },
+    "net": {
+        "relation": [
+            "rope"
+        ],
+        "property": "entity"
+    },
+    "ribbon": {
+        "relation": [],
+        "property": "entity"
+    },
+    "basketball": {
+        "relation": [
+            "ball"
+        ],
+        "property": "entity"
+    },
+    "mattress": {
+        "relation": [],
+        "property": "entity"
+    },
+    "blueberry": {
+        "relation": [],
+        "property": "entity"
+    },
+    "egg": {
+        "relation": [],
+        "property": "entity"
+    },
+    "lemon": {
+        "relation": [],
+        "property": "entity"
+    },
+    "melon": {
+        "relation": [],
+        "property": "environment"
+    },
+    "track": {
+        "relation": [],
+        "property": "environment"
+    },
+    "potato": {
+        "relation": [],
+        "property": "entity"
+    },
+    "goose": {
+        "relation": [],
+        "property": "entity"
+    },
+    "showerhead": {
+        "relation": [],
+        "property": "entity"
+    },
+    "watermelon": {
+        "relation": [],
+        "property": "entity"
+    },
+    "pineapple": {
+        "relation": [],
+        "property": "entity"
+    },
+    "guitar": {
+        "relation": [],
+        "property": "entity"
+    },
+    "tennis": {
+        "relation": [],
+        "property": "entity"
+    },
+    "juice": {
+        "relation": [],
+        "property": "entity"
+    },
+    "juicer": {
+        "relation": [],
+        "property": "entity"
+    },
+    "card": {
+        "relation": [],
+        "property": "entity"
+    },
+    "ring": {
+        "relation": [],
+        "property": "entity"
+    },
+    "crutch": {
+        "relation": [
+            "pole",
+            "support"
+        ],
+        "property": "entity"
+    },
+    "desert": {
+        "relation": [
+            "sand",
+            "ground",
+            "beach"
+        ],
+        "property": "environment"
+    },
+    "deer": {
+        "relation": [],
+        "property": "entity"
+    },
+    "cream": {
+        "relation": [
+            "ice"
+        ],
+        "property": "entity"
+    },
+    "shrimp": {
+        "relation": [],
+        "property": "entity"
+    },
+    "cowpea": {
+        "relation": [],
+        "property": "entity"
+    },
+    "ice": {
+        "relation": [],
+        "property": "entity"
+    },
+    "tiger": {
+        "relation": [],
+        "property": "entity"
+    },
+    "pig": {
+        "relation": [],
+        "property": "entity"
+    },
+    "cola": {
+        "relation": [],
+        "property": "entity"
+    },
+    "grape": {
+        "relation": [],
+        "property": "entity"
+    },
+    "chicken": {
+        "relation": [
+            "bird",
+            "bill"
+        ],
+        "property": "entity"
+    },
+    "rack": {
+        "relation": [
+            "shelf"
+        ],
+        "property": "entity"
+    },
+    "magazine": {
+        "relation": [
+            "book"
+        ],
+        "property": "entity"
+    },
+    "meat": {
+        "relation": [],
+        "property": "entity"
+    },
+    "telescope": {
+        "relation": [],
+        "property": "entity"
+    },
+    "grapefruit": {
+        "relation": [],
+        "property": "entity"
+    },
+    "pinwheel": {
+        "relation": [
+            "windmill"
+        ],
+        "property": "entity"
+    },
+    "baseball": {
+        "relation": [
+            "ball"
+        ],
+        "property": "entity"
+    },
+    "ginger": {
+        "relation": [],
+        "property": "entity"
+    },
+    "camel": {
+        "relation": [],
+        "property": "entity"
+    },
+    "snowman": {
+        "relation": [],
+        "property": "entity"
+    },
+    "shovel": {
+        "relation": [
+            "spade",
+            "scoop"
+        ],
+        "property": "entity"
+    },
+    "showerpuff": {
+        "relation": [
+            "ball",
+            "sponge"
+        ],
+        "property": "entity"
+    },
+    "earing": {
+        "relation": [
+            "earrings"
+        ],
+        "property": "entity"
+    },
+    "tinfoil": {
+        "relation": [
+            "sliver"
+        ],
+        "property": "entity"
+    },
+    "mushroom": {
+        "relation": [],
+        "property": "entity"
+    },
+    "tortoise": {
+        "relation": [
+            "turtle"
+        ],
+        "property": "entity"
+    },
+    "beer": {
+        "relation": [
+            "drink"
+        ],
+        "property": "entity"
+    },
+    "microphone": {
+        "relation": [],
+        "property": "entity"
+    },
+    "piano": {
+        "relation": [],
+        "property": "entity"
+    },
+    "rod": {
+        "relation": [
+            "pole"
+        ],
+        "property": "environment"
+    },
+    "fox": {
+        "relation": [],
+        "property": "entity"
+    },
+    "coconut": {
+        "relation": [],
+        "property": "entity"
+    },
+    "rugby": {
+        "relation": [
+            "football"
+        ],
+        "property": "entity"
+    },
+    "core": {
+        "relation": [
+            "kernel"
+        ],
+        "property": "entity"
+    },
+    "panda": {
+        "relation": [
+            "bear"
+        ],
+        "property": "entity"
+    },
+    "bamboo": {
+        "relation": [],
+        "property": "entity"
+    },
+    "star": {
+        "relation": [],
+        "property": "entity"
+    },
+    "moon": {
+        "relation": [],
+        "property": "environment"
+    },
+    "bar": {
+        "relation": [],
+        "property": "environment"
+    },
+    "toaster": {
+        "relation": [],
+        "property": "entity"
+    }
+}
