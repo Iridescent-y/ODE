@@ -46,7 +46,9 @@ This script sequentially calls the following modules to complete the evaluation 
 3. **`image_generator.py`**  
    Generates images based on the object combinations, creating visual data for evaluation tasks.
 
-4. **`queries_generator.py`**  
+4. **`object_detector.py`**  
+    Detection Objects of the images generated.
+5. **`queries_generator.py`**  
    Performs high-quality sampling of the generated images and creates corresponding **queries** and **annotations**, ensuring evaluation accuracy.
 
 ---
