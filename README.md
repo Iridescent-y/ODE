@@ -3,7 +3,10 @@
 ## Introduction
 The Open-Set Dynamic Evaluation (ODE) protocol  automatically generates datasets to evaluate object hallucinations in MLLMs, covering both existence-level and attribute-level hallucinations.
 
+![image](https://github.com/Iridescent-y/ODE/blob/main/figures/method.pdf)
+
 The workflow consists of four steps: modeling real-world scenarios using a graph structure, conceptual design of semantic scene, image generation and filtering, and template design for inquiries.
+
 
 ## Getting Started
 ### Installation
@@ -31,19 +34,19 @@ We provide a script, **`generate.sh`**, for generating evaluation samples in one
 
 This script sequentially calls the following modules to complete the evaluation sample generation process:
 
-1. **`data_filter.py`**  
+1. **`data_extractor.py`**  
    Constructs a graph result from existing statistical data, including:  
    - **Object concepts**  
-   - **Object distribution relationships**  
-   - **Object attributes**
+   - **Object attributes**  
+   - **Object joint distribution**
 
 2. **`concept_composer.py`**  
    Provides object combinations based on various distribution principles to ensure diversity and scientific accuracy.
 
-3. **`imagegenerator.py`**  
+3. **`image_generator.py`**  
    Generates images based on the object combinations, creating visual data for evaluation tasks.
 
-4. **`query_generator.py`**  
+4. **`queries_generator.py`**  
    Performs high-quality sampling of the generated images and creates corresponding **queries** and **annotations**, ensuring evaluation accuracy.
 
 ---
