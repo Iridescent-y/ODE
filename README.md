@@ -55,7 +55,7 @@ This script sequentially calls the following modules to complete the evaluation 
 
 #### How to Use
 
-Run the following command to generate evaluation samples:
+Before proceeding, ensure you have access to a text-to-image generation tool, such as FLUX or Stable Diffusion. These tools can be integrated via API calls to streamline the workflow. Then run the following command to generate evaluation samples:
 
 ```bash
 bash generate.sh
